@@ -1,0 +1,69 @@
+<misterromdescription>
+	<name>600</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1981</year>
+	<manufacturer>Konami</manufacturer>
+	<category>Maze</category>
+
+	<setname>600</setname>
+	<parent>turtles</parent>
+	<mameversion>0209</mameversion>
+	<rbf>scramble</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<buttons default="A,Start,Select,R,L" names="Fire,-,-,-,Start 1P,Start 2P,Coin,Pause"></buttons>
+
+	<switches default="FF,FC,F1">
+		<dip bits="8,9" ids="3,4,5,126(cheat)" name="Lives"></dip>
+		<dip bits="17,18" ids="1c/1cr,1c/2cr,1c/3cr,1/4cr" name="Coinage"></dip>
+		<dip bits="19" ids="Upright,Cocktail" name="Cabinet"></dip>
+		</switches>
+
+	<rom index="1">
+		<part>0F</part>
+		</rom>
+	<rom index="0" md5="none" type="merged|nonmerged" zip="600.zip">
+		<part crc="8ee090ae" name="600_vid.2c"></part>
+		<part crc="45bfaff2" name="600_vid.2e"></part>
+		<part crc="9f4c8ed7" name="600_vid.2f"></part>
+		<part crc="a92ef056" name="600_vid.2h"></part>
+		<part crc="6dadd72d" name="600_vid.2j"></part>
+		<part crc="6dadd72d" name="600_vid.2j"></part>
+		<part crc="6dadd72d" name="600_vid.2j"></part>
+		<part crc="6dadd72d" name="600_vid.2j"></part>
+		<part crc="1773c68e" name="600_snd.5c"></part>
+		<part crc="a311b998" name="600_snd.5d"></part>
+		<part crc="7dbc0426" name="600_vid.5f" repeat="4"></part>
+		<part crc="006c3d56" name="600_vid.5h" repeat="4"></part>
+		<part crc="f3ef02dd" name="turtles.clr"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3" md5="none">
+		<part>
+				 00 00 82 00 1E 00 00 00
+				 00 00 80 A8 03 00 00 00
+				 00 00 93 40 01 01 01 00
+				</part>
+		</rom>
+	<rom index="4"></rom>
+
+	<nvram index="4" size="22"></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>
